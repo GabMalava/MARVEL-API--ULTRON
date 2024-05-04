@@ -18,13 +18,5 @@ personagemRoutes.get('/personagens-Ordem-Alfabetica', personagemController.lista
 personagemRoutes.get('/adicionarPersonagem', personagemController.fetchCharacters)
 
 
-//Rotas Auxiliares
-/*
-personagemRoutes.get('/personagens/:namePersonagem', personagemController.buscarPersonagemName)
-
-
-personagemRoutes.get('/personagens-imagem', personagemController.METODO)
-
-*/
 
 export { personagemRoutes }
